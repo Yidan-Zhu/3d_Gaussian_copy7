@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Line2D_panel.gd" type="Script" id=1]
+
+[node name="Side_Panel" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Line2D_panel" type="Line2D" parent="CanvasLayer"]
+script = ExtResource( 1 )
